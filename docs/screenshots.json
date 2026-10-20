@@ -1,0 +1,5 @@
+[
+  {"file":"01-font-preview.png","caption":"Browse installed fonts with your own sample text, and open a family to see every style, its metadata, and the file it comes from.","alt":"FontToggleShelf main window with Avenir Next selected in the detail pane"},
+  {"file":"02-settings.png","caption":"Settings for the default sample text and preview size, whole-family activation, and launch at login.","alt":"FontToggleShelf Settings window"},
+  {"file":"03-duplicates.png","caption":"The Duplicates view lists fonts whose PostScript name appears in more than one file.","alt":"FontToggleShelf Duplicates view showing Arial Unicode MS with two Regular styles"}
+]

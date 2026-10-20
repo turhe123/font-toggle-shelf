@@ -1,0 +1,60 @@
+{
+  "seo_title": "Free font manager for macOS",
+  "seo_description": "FontToggleShelf is a free, open-source macOS font manager. Add any folder, preview fonts with your own text, and activate them without copying files.",
+  "hero_title_line1": "Your fonts, where they are.",
+  "hero_title_accent": "On when you need them.",
+  "hero_sub": "Add any folder of fonts, preview every family with your own text, and switch fonts on or off without copying files. Drag a folder onto the window to start.",
+  "features_title": "Font management without the subscription.",
+  "features_sub": "Everything works from the folders you already have, using only Apple frameworks and no network access.",
+  "features": [
+    {
+      "icon": "folder",
+      "title": "Libraries from any folder",
+      "desc": "Add Downloads, Dropbox, iCloud Drive or a project's assets folder. Folders are scanned recursively for TTF, OTF, TTC and DFONT files and watched for changes."
+    },
+    {
+      "icon": "text",
+      "title": "Live previews with your text",
+      "desc": "Every family renders in its own font using your sample text and a size slider from 8 to 120 pt, in list or grid view. Fonts preview even when they are not activated."
+    },
+    {
+      "icon": "bolt",
+      "title": "Activate without copying files",
+      "desc": "Toggle a whole family or a single style. Fonts are registered by file URL for the current session, or persistently across restarts. Your files are never moved or deleted."
+    },
+    {
+      "icon": "sliders",
+      "title": "Metadata and duplicate finder",
+      "desc": "See family, style, PostScript name, format and glyph count for every face. The Duplicates view lists PostScript names found in more than one file."
+    },
+    {
+      "icon": "eye",
+      "title": "Clear conflict and error handling",
+      "desc": "If the same PostScript name is already active from another file, the app says so inline and offers to reveal that file. Corrupt files show the CoreText error instead of a preview."
+    },
+    {
+      "icon": "keyboard",
+      "title": "Search, favorites, shortcuts",
+      "desc": "Search by family, style or PostScript name, and star favorites. Use Cmd-F to find, Cmd-O to add a library, Cmd-R to rescan and Shift-Cmd-A to toggle activation."
+    }
+  ],
+  "permissions_step": "No special permissions are required; macOS may ask once for access if you add a protected folder such as Documents, Desktop or iCloud Drive.",
+  "faq": [
+    {
+      "q": "Is FontToggleShelf really free and open source?",
+      "a": "Yes. It is released under the MIT license and the full source is on GitHub. There are no accounts, no analytics and no third-party dependencies, and it makes no network calls."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "None of the privacy permissions such as Accessibility or Screen Recording. It reads only the folders you add and the standard font folders, and the optional Launch at login setting appears under Login Items in System Settings."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Your font files stay where they are. Library folders are remembered as security-scoped bookmarks, settings live in UserDefaults, and a scan cache is kept in ~/Library/Application Support/FontToggleShelf/."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source with Xcode."
+    }
+  ]
+}

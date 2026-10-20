@@ -1,5 +1,7 @@
 # FontToggleShelf
 
+**🌐 Website:** [turhe123.github.io/font-toggle-shelf](https://turhe123.github.io/font-toggle-shelf/)
+
 Browse font folders anywhere on disk, preview them with your own text, and switch fonts on or off without a subscription.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -32,7 +34,17 @@ FontToggleShelf is a free, open-source, 100% native, backend-free alternative to
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-font-preview.png" alt="FontToggleShelf main window with Avenir Next selected in the detail pane" width="720"></p>
+
+<p align="center"><em>Browse installed fonts with your own sample text, and open a family to see every style, its metadata, and the file it comes from.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="FontToggleShelf Settings window" width="560"></p>
+
+<p align="center"><em>Settings for the default sample text and preview size, whole-family activation, and launch at login.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-duplicates.png" alt="FontToggleShelf Duplicates view showing Arial Unicode MS with two Regular styles" width="560"></p>
+
+<p align="center"><em>The Duplicates view lists fonts whose PostScript name appears in more than one file.</em></p>
 
 ## Install
 
